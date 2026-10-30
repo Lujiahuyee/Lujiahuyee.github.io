@@ -1,0 +1,11 @@
+/* 1. 工具栏容器从右侧移到左侧 */
+#rightside {
+  left: 20px !important;
+  right: auto !important;
+}
+
+/* 2. 弹出面板从"贴容器右边"改为"贴容器左边"，向右弹出 */
+#rightside-config-hide {
+  left: 35px !important;    /* 面板左边缘距离容器左边缘 35px（即紧贴按钮右侧） */
+  right: auto !important;   /* 彻底取消原有的右对齐 */
+}
